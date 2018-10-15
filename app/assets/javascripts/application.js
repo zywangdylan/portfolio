@@ -12,5 +12,11 @@
 //
 //= require rails-ujs
 //= require activestorage
+//= require jquery3
+//= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap
+//= require ./componments/home
+import { loadDynamicBannerText } from '../components/banner';
+loadDynamicBannerText();

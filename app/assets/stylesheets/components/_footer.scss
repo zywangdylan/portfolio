@@ -1,0 +1,33 @@
+.footer-wrapper{
+  height: 60px;
+  background-color: #353535;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-text{
+  margin-right: 20px;
+}
+
+.footer-text > p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.left-contact > p {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white;
+  margin: 5px 0 0 20px;
+}
+
+.first-p > i {
+  padding: 0px 6px 0 10px;
+  font-size: 25px !important;
+}

@@ -1,0 +1,44 @@
+.contact-container {
+  padding: 40px 30px 0 30px;
+}
+
+.my_name > p {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+p{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h4{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.avtar > img {
+  border-radius: 50%;
+  height: 96px;
+  width: 96px;
+  margin: 4rem 0 10px 0;
+  box-shadow: 3px 1px 1px #eeeeee;
+}
+
+.contact-block{
+  padding: 10px 30px;
+}
+
+.logos :hover{
+  transform: scale(1.5);
+  margin: 40px 20px;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+  margin: 40px 10px;
+  transition: all 0.8s, margin 1s ease;
+}

@@ -1,2 +1,138 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="navbar-wagon" id="navbar">
+  <!-- Logo -->
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right">
+
+    <a href="#banner" class="navbar-wagon-item navbar-wagon-link">Home</a>
+    <a href="#about" class="navbar-wagon-item navbar-wagon-link">About</a>
+    <a href="#projects-wrapper" class="navbar-wagon-item navbar-wagon-link">Projects</a>
+    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <!-- Profile picture with dropdown list -->
+  </div>
+
+</div>
+
+<section class="banner" id="banner">
+    <div class="banner-content">
+      <h1>
+        I AM <span id="banner-typed-text"></span>
+      </h1>
+      <a href="#about" class="scroll-down-link scroll-down-arrow next" data-iconfont="ETmodules" data-icon></a>
+    </div>
+</section>
+
+
+<section class="about" id="about">
+  <div class="about-container">
+      <div class="row row-feature">
+          <div class="col-xs-12 col-lg-6 offset-lg-1">
+            <div class="text-center">
+                <h1>Hi, I am Zhenyuan Wang</h1>
+                <h4>Nice to meet you</h4>
+                <p>Right now ( <b><%=  Time.now.strftime("%Y.%m.%d %H:%M") %></b> ), I am a sophomore at University of Miami who double major in <b>Computer Science and Mathematics</b>. Since beginning my journey as a coder, I have strengthened my programming skills by attending Coding bootcamp (LeWagon) and hackathon, collaborated with talented people throughout the world to build various digital tools.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6 offset-lg-1 feature-image">
+              <i class="material-icons">person</i>
+          </div>
+      </div>
+      <div class="row row-feature">
+          <div class="col-xs-12 col-lg-6 offset-lg-1 feature-image">
+              <i class="material-icons">developer_mode</i>
+          </div>
+          <div class="col-xs-12 col-lg-6 offset-lg-1">
+            <div class="text-center">
+                <h1>Full Stack Web Developer</h1>
+                <h4>Languages I Speak</h4>
+                <p><b>HTML</b>, <b>CSS</b>, JavaScript, Node.js, Ruby, <b>Ruby On Rails</b></p>
+                <h4>Dev Tools</h4>
+                <p>Bootstrap, Codepen, Github, yarn, npm</p>
+            </div>
+          </div>
+      </div>
+      <div class="row row-feature">
+          <div class="col-xs-12 col-lg-6 offset-lg-1">
+            <div class="text-center">
+                <h1>Programmer</h1>
+                <h4>Other Languages I Speak</h4>
+                <p><b>Java</b>, <b>WXML & WXSS</b>, Python, SQL</p>
+                <h4>Description</h4>
+                <p>Java is the first programming language I learnt, with over two years experience, which is also the language I usually use at University Of Miami. </p>
+                <p> WXML & WXSS are WeChat mini-program's programming languages and Wechat mini-programs are “sub-applications” within the WeChat ecosystem. Since learnt them one year ago, I have maken two mini-programs that have improved life effiency for hundreds people.</p>
+                <p>I stepped into Python and SQL's world about one year ago, so as to have a brief understanding of data anlysing.</p>
+                <p></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6 offset-lg-1 feature-image">
+              <i class="material-icons">desktop_windows</i>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="projects wrapper" id="projects-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-xm-12 col-lg-12 center project-text">
+          <h1>Projects</h1>
+      </div>
+      <div class="col-xs-12 col-xm-12 col-lg-12 center project-description">
+          <p>More Projects are coming</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="container-cards">
+    <div class="row">
+        <div class="col-xm-12 img-center" >
+          <a href="http://www.kaizen.cool">
+            <div class="card" data-hover="damndamn">
+                <img src="https://res.cloudinary.com/de7kvbems/image/upload/v1539484017/Screen_Shot_2018-10-13_at_10.26.29_PM.png" alt="" class="kaizen-image">
+              <div class="overlay">
+                  <div class="image-description">
+                    Kaizen is <b>Wechat Mini Program</b> Project, which is trying to build a scheduling digital product within Wachat, one of the most largest multi-purpose social media in China.
+                  </div>
+                  <div class="project-catagory">
+                    Wechat Mini Program & Website
+                  </div>
+              </div>
+            </div>
+          </a>
+        </div>
+    </div>
+  </div>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <div class="row"></div>
+      <div class="col-lg-12 center">
+        <h1>Contact with me</h1>
+      </div>
+      <div class="col-lg-12 center my_name">
+        <p>Zhenyuan Wang</p>
+      </div>
+      <div class="center contact-block">
+        <div class="col-lg-12 avtar">
+          <img src="https://pbs.twimg.com/profile_images/892039148118265860/NvLwrnpX_400x400.jpg" alt="">
+        </div>
+        <div class="logos">
+            <a href="https://www.facebook.com/profile.php?id=100009595642215"><img src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="" class="logo"></a>
+            <a href="https://github.com/zywangdylan"><img src="https://image.flaticon.com/icons/svg/25/25657.svg" alt="" class="logo"></a>
+            <a href="https://www.instagram.com/zywangdylan/"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="" class="logo"></a>
+            <a href="https://www.linkedin.com/in/zhenyuan-wang-5782a2157/"><img src="https://image.flaticon.com/icons/svg/174/174857.svg" alt="" class="logo"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="footer-container footer-wrapper">
+    <div class="left-contact">
+        <p class="first-p"> <i class="material-icons">chat_bubble_outline</i> Email:  zywangdylan@gmail.com  Tel:  786-832-9958</p>
+    </div>
+        <div class="footer-text">
+        <p>Handcrafted By Me <b>@</b> Zhenyuan Wang</p>
+    </div>
+</div>

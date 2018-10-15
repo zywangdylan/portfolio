@@ -1,0 +1,52 @@
+/* Main navbar */
+.navbar-wagon {
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index:1;
+}
+
+.navbar-transparent{
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #f7f7f7;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+
+.navbar-wagon-white {
+  background-color: #393e46;
+}
+
